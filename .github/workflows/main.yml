@@ -1,0 +1,22 @@
+on: push
+name: 🚀 Deploy website on push
+jobs:
+  web-deploy:
+    name: 🎉 Deploy
+    runs-on: ubuntu-latest
+    steps:
+    - name: 🚚 Get latest code
+      uses: actions/checkout@v3
+
+    - name: 📂 Sync to neyrinckaudio/docs-neyrinck
+      uses: cpina/github-action-push-to-another-repository@main
+      env:
+        API_TOKEN_GITHUB: ${{ secrets.DIST_REPO_PAT }}
+      with:
+        source-directory: 'site'
+        destination-github-username: 'neyrinckaudio'
+        destination-repository-name: 'docs-neyrinck'
+        target-directory: 'soundcode-dolby-e'
+        user-email: github-actions[bot]@users.noreply.github.com
+        target-branch: main
+        commit-message: 'Auto-deploy SoundCode For Dolby E docs from ${{ github.repository }}'
