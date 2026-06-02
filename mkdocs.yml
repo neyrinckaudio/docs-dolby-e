@@ -1,0 +1,60 @@
+site_name: SoundCode For Dolby E User Guide
+site_url: https://neyrinck.com/soundcode-dolby-e/docs
+site_description: User guide for SoundCode For Dolby E — encode, decode, export, import, and monitor Dolby E, BWF, and MXF OP1a audio for broadcast
+
+theme:
+  name: material
+  palette:
+    - scheme: default
+      primary: indigo
+      accent: blue
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+    - scheme: slate
+      primary: indigo
+      accent: blue
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+  features:
+    - navigation.sections
+    - navigation.expand
+    - content.tabs.link
+    - search.highlight
+  icon:
+    logo: material/waveform
+
+nav:
+  - Home: index.md
+  - Getting Started:
+    - Installation: getting-started/installation.md
+    - Authorization: getting-started/authorization.md
+    - System Requirements: getting-started/system-requirements.md
+  - Concepts:
+    - Technologies: concepts/technologies.md
+  - Encode / Export:
+    - Overview: encode-export/overview.md
+    - Controls Reference: encode-export/controls.md
+    - Metadata Reference: encode-export/metadata.md
+  - Monitor / Import:
+    - Overview: monitor-import/overview.md
+    - Controls Reference: monitor-import/controls.md
+  - Reference:
+    - Settings & Menu Commands: reference/settings.md
+    - Final Cut: reference/final-cut.md
+    - Workflows: reference/workflows.md
+    - Troubleshooting: reference/troubleshooting.md
+    - Support: reference/support.md
+
+markdown_extensions:
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.keys
+  - attr_list
+  - md_in_html
+
+copyright: Copyright &copy; Neyrinck. Manufactured under license from Dolby Laboratories.
