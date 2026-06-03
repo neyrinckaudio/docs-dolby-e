@@ -2,18 +2,18 @@
 
 ## INPUT Controls
 
-The INPUT section controls the source BWF file to be imported (AudioSuite / Standalone) or played (RTAS). These settings cannot be saved as Pro Tools presets — they are persistent and saved in a preferences file that is read when the plug-in window opens.
+The INPUT section controls the source BWF file to be imported (AudioSuite / Standalone) or played (AAX Native). These settings cannot be saved as Pro Tools presets — they are persistent and saved in a preferences file that is read when the plug-in window opens.
 
 ### Source
 
 Selects whether a WAV file is the source audio, a live audio stream is the source audio, or **off** to output only zeros.
 
 !!! note
-    Bypassing the plug-in via the Pro Tools bypass control allows the track audio to pass through in the RTAS version.
+    Bypassing the plug-in via the Pro Tools bypass control allows the track audio to pass through in the AAX Native version.
 
 ### Browse
 
-Launches a dialog to browse the file system and choose a WAV file for subsequent importing (AudioSuite) or playback (RTAS).
+Launches a dialog to browse the file system and choose a WAV file for subsequent importing (AudioSuite) or playback (AAX Native).
 
 ### Spot To (AudioSuite)
 
@@ -23,7 +23,7 @@ Controls how the audio from the WAV file is located when imported into the Pro T
 - **Timecode** — located at the time code start of the WAV file (available if the file has embedded time code).
 - **Session Start** — located to the start of the Pro Tools timeline (available if the file has no embedded time code).
 
-### Sync To (RTAS)
+### Sync To (AAX Native)
 
 Controls the timing for playing back the WAV file audio:
 
@@ -37,7 +37,7 @@ Selects how much of the WAV file is played:
 - **Entire** — the entire WAV file plays no matter what length is selected in the timeline.
 - **Partial** — the length of the timeline selection determines how much of the file plays.
 
-### Counter (RTAS)
+### Counter (AAX Native)
 
 Shows the running timecode counter when playback is engaged. Shows **waiting** when the timecode has not yet reached the start of the file (if the file did not start at the beginning of the timeline), and **finished** if the running timecode has gone beyond the end time of the file.
 
@@ -53,7 +53,7 @@ Selects the audio channel layout of the BWF file. If the file already contains l
 
 ### Program
 
-Selects the audio program to be imported (AudioSuite) or played (RTAS). If the file contains more than one audio program, each program is shown as a choice here, including **all programs** at the end of the list.
+Selects the audio program to be imported (AudioSuite) or played (AAX Native). If the file contains more than one audio program, each program is shown as a choice here, including **all programs** at the end of the list.
 
 ### Dolby E Decode Enable
 
@@ -94,8 +94,8 @@ Displays the Dolby E metadata associated with the audio being monitored.
 
 Each page displays detailed metadata information for each audio program being monitored. Refer to **Dolby Encoding Guidelines.pdf** for more information about these values.
 
-## Dolby E Hardware Mode (RTAS only)
+## Dolby E Hardware Mode (AAX Native only)
 
-The RTAS Dolby E Monitor features an additional control called **hw mode**. It is enabled when the Pro Tools system is used as a standalone Dolby E decoder decoding a live Dolby E stream being monitored. It is only available when the **Input Source** is set to **Track Stream**.
+The AAX Native Dolby E Monitor features an additional control called **hw mode**. It is enabled when the Pro Tools system is used as a standalone Dolby E decoder decoding a live Dolby E stream being monitored. It is only available when the **Input Source** is set to **Track Stream**.
 
-When enabled, the Dolby E decode latency is one video frame. To operate correctly, the **RTAS buffer size must be set to 256** in the Playback Engine dialog.
+When enabled, the Dolby E decode latency is one video frame. To operate correctly, the **AAX Native buffer size must be set to 256** in the Playback Engine dialog.

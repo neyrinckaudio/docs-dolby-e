@@ -26,11 +26,11 @@ The Dolby E encoder and decoder each have **one video frame of latency**. This i
 
 The Dolby E Encoder tool has an [**Input Offset**](../encode-export/controls.md#input-offset) control to advance the input audio and compensate for these latencies — equivalent to sliding the audio earlier in time. SoundCode emulates Dolby real time hardware because many broadcast delivery specifications assume a hardware-based encoding system. When encoding Dolby E streams, be certain you understand the delivery requirements so you can set the Input Offset correctly.
 
-### RTAS Dolby E decoder latency (Input Source = Track Stream)
+### AAX Native Dolby E decoder latency (Input Source = Track Stream)
 
-The RTAS Dolby E decoder allows live Dolby E stream confidence monitoring with one frame of latency. If you use a Pro Tools system to emulate a standalone hardware decoder, you must:
+The AAX Native Dolby E decoder allows live Dolby E stream confidence monitoring with one frame of latency. If you use a Pro Tools system to emulate a standalone hardware decoder, you must:
 
 - Set the **hw mode** control to **ON**, and
-- Set the **RTAS buffer size to 256** in the Playback Engine dialog.
+- Set the **AAX Native buffer size to 256** in the Playback Engine dialog.
 
-This way you can monitor the audio from a live Dolby E stream input and compare it to other audio sources — for example, playing back a video tape with a Dolby E stream on it, decoding it on the Pro Tools system, and testing that it is phase aligned with other tracks. See [Dolby E Hardware Mode](../monitor-import/controls.md#dolby-e-hardware-mode-rtas-only).
+This way you can monitor the audio from a live Dolby E stream input and compare it to other audio sources — for example, playing back a video tape with a Dolby E stream on it, decoding it on the Pro Tools system, and testing that it is phase aligned with other tracks. See [Dolby E Hardware Mode](../monitor-import/controls.md#dolby-e-hardware-mode-aax-native-only).

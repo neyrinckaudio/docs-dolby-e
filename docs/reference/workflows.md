@@ -17,7 +17,7 @@ In this scenario, you are mixing an audio soundtrack in both 5.1 surround and st
 9. Create a new stereo track to output the Dolby E encoded stream.
 10. Import the stereo WAV Dolby E stream created in step 8 and spot it to the stereo track created in step 9.
 11. Place a hardware insert on the stereo track to send the Dolby E stream to the VTR inputs and return it from the VTR.
-12. Insert a **stereo-to-5.1 RTAS SoundCode Dolby E Monitor** plug-in after the hardware insert.
+12. Insert a **stereo-to-5.1 AAX Native SoundCode Dolby E Monitor** plug-in after the hardware insert.
 13. Enable the **dolby e** control so the Dolby E stream returning from the VTR can be monitored.
 
 ## Prepare a 5.1 + Stereo mix for Dolby E encoding with the Dolby DP600 and lay back to a VTR (Pro Tools)
@@ -41,7 +41,7 @@ In this scenario, you are mixing in both 5.1 surround and stereo, and need to de
 
 In this scenario, you would like to listen to a 5.1 interleaved BWF file synchronized to Pro Tools video playback.
 
-1. Create a stereo aux track and instantiate the **RTAS stereo-to-5.1 SoundCode Dolby E Monitor** plug-in.
+1. Create a stereo aux track and instantiate the **AAX Native stereo-to-5.1 SoundCode Dolby E Monitor** plug-in.
 2. Click the **Browse** control and select the multichannel WAV file to be played.
 3. Place the timeline cursor as appropriate for playing the file according to the timecode in the file or session start (which may be the same).
 4. Select the program to play (in this case the 5.1 program is the only choice).
