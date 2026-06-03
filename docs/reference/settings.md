@@ -8,6 +8,9 @@ SoundCode For Dolby E can save and recall settings. Settings are saved in one of
 
 The standalone application and the Pro Tools plug-in feature the following menu commands.
 
+!!! tip "Automating with XML process files"
+    The **Export / Import / Run XML Process** commands below let you save and replay complete jobs. For how to build a library of deliverables and drive SoundCode from the command line, see [XML Processing & Automation](xml-processing.md).
+
 ### Export XML Process…
 
 Exports an XML process file that specifies all information needed to perform an encode/export or import process. The file can be used later to run a process, as part of a batch process, or as a template for a hot folder import operation.
