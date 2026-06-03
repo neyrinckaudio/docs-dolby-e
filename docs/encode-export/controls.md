@@ -59,7 +59,6 @@ A popup menu that selects the type of file to encode/export to:
 
 - **Interleaved WAV** — a single WAV file containing all channels of audio interleaved together. Simpler to exchange and archive.
 - **Split / Multi-mono WAV** — multiple WAV files, one per channel of audio. Because Pro Tools cannot directly use interleaved files, split WAV can save time if you need to import the audio back into Pro Tools.
-- **MXF OP1a**
 
 ### Pro Tools controls at bottom of window
 

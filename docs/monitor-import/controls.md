@@ -2,7 +2,7 @@
 
 ## INPUT Controls
 
-The INPUT section controls the source BWF or MXF file to be imported (AudioSuite / Standalone) or played (RTAS). These settings cannot be saved as Pro Tools presets — they are persistent and saved in a preferences file that is read when the plug-in window opens.
+The INPUT section controls the source BWF file to be imported (AudioSuite / Standalone) or played (RTAS). These settings cannot be saved as Pro Tools presets — they are persistent and saved in a preferences file that is read when the plug-in window opens.
 
 ### Source
 
@@ -43,13 +43,13 @@ Shows the running timecode counter when playback is engaged. Shows **waiting** w
 
 ### Play (Standalone)
 
-Plays back the selected WAV or MXF file. Adjust the slider position to change the playback location.
+Plays back the selected WAV file. Adjust the slider position to change the playback location.
 
 ## AUDIO PLAYBACK Controls
 
 ### Configuration
 
-Selects the audio channel layout of the BWF or MXF file. If the file already contains layout information, this is set automatically. But many MXF files are just eight channels of audio with no layout information — this control lets you set it (as **5.1 + Stereo**, for example).
+Selects the audio channel layout of the BWF file. If the file already contains layout information, this is set automatically. For files that do not specify a channel layout, this control lets you set it (as **5.1 + Stereo**, for example).
 
 ### Program
 

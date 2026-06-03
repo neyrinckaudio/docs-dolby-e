@@ -2,7 +2,7 @@
 
 ## Error Message: "Updated Tpkd Driver Required"
 
-If you see this message when Pro Tools is launching on Windows XP, your PACE iLok driver needs to be updated to a newer version. Go to PACE's website at [www.paceap.com](https://www.paceap.com) to download a driver installer.
+If you see this message when Pro Tools is launching on Windows, your PACE iLok driver needs to be updated to a newer version. Go to PACE's website at [www.paceap.com](https://www.paceap.com) to download a driver installer.
 
 ## External Dolby E Decoder Won't Decode Data Stream
 

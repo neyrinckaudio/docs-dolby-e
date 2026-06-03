@@ -1,6 +1,6 @@
 # SoundCode For Dolby E User Guide
 
-**SoundCode For Dolby E** is a suite of software tools for encoding, decoding, and exchanging audio for broadcast applications. Designed for both tape-based and file-based workflows, it lets you encode, export, import, and monitor Dolby&nbsp;E, BWF, and MXF&nbsp;OP1a audio.
+**SoundCode For Dolby E** is a suite of software tools for encoding, decoding, and exchanging audio for broadcast applications. Designed for both tape-based and file-based workflows, it lets you encode, export, import, and monitor Dolby&nbsp;E and BWF audio.
 
 SoundCode For Dolby E runs on macOS and Windows as a standalone application and a Pro Tools plug-in.
 
@@ -8,15 +8,15 @@ SoundCode For Dolby E runs on macOS and Windows as a standalone application and 
 
 SoundCode For Dolby E operates as two separate tools:
 
-- **[SoundCode Dolby E Encode / Export](encode-export/overview.md)** — faster-than-realtime Dolby E encoding and multi-program PCM export to BWF and MXF OP1a, with full Dolby E and Dolby Digital metadata.
+- **[SoundCode Dolby E Encode / Export](encode-export/overview.md)** — faster-than-realtime Dolby E encoding and multi-program PCM export to BWF, with full Dolby E and Dolby Digital metadata.
 - **[SoundCode Dolby E Monitor / Import](monitor-import/overview.md)** — realtime and faster-than-realtime Dolby E decoding, multi-channel/multi-program playback, metadata display, and import into Pro Tools.
 
 ## Key Features
 
 - Faster-than-realtime Dolby E encoding and decoding
 - Real time Dolby E decoding, monitoring, and metadata display
-- File-based import/export of multi-program BWF and MXF OP1a files
-- Real time audio monitoring of multi-program BWF and MXF OP1a files
+- File-based import/export of multi-program BWF files
+- Real time audio monitoring of multi-program BWF files
 - Dolby E metadata import/export
 - Compatible with the Dolby DP600
 - Integration with Pro Tools, Nuendo, and other workstations
@@ -25,8 +25,8 @@ SoundCode For Dolby E operates as two separate tools:
 
 ## Requirements
 
-- macOS (qualified on OS X 10.4 and higher) or Windows XP SP2 and later
-- Pro Tools 7.0 or higher (for the Pro Tools plug-in)
+- macOS 10.12 and higher, or Windows 10 and higher
+- Pro Tools 10 and higher (for the Pro Tools plug-in)
 - An authorized iLok USB Key or a license file
 
 See [System Requirements](getting-started/system-requirements.md) for important details about sample rates, latency, and the Pro Tools mixer.

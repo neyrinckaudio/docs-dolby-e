@@ -123,7 +123,7 @@ A few rules worth knowing:
 
 - **Only what you specify is changed.** Any element you omit keeps its current/default value.
 - **Program numbers are 1-based** (`1`–`8`) and must match the chosen `Dolby_E_Configuration`.
-- Input audio is typically one mono file per channel, assigned with the `channel` attribute. For MXF output, a video reference uses `channel="v1"`.
+- Input audio is typically one mono file per channel, assigned with the `channel` attribute.
 
 📎 Download the full working file: [encoder-process.xml](../assets/examples/encoder-process.xml)
 

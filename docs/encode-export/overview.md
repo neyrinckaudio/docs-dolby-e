@@ -2,7 +2,7 @@
 
 The **SoundCode Dolby E Encode / Export** tool operates as a standalone application window or an AudioSuite plug-in in Pro Tools.
 
-It performs faster-than-realtime Dolby E encoding and multi-program PCM export to BWF and MXF OP1a, with full Dolby E and Dolby Digital metadata, automatic time code integration, and Dolby E latency compensation.
+It performs faster-than-realtime Dolby E encoding and multi-program PCM export to BWF, with full Dolby E and Dolby Digital metadata, automatic time code integration, and Dolby E latency compensation.
 
 ## How to encode / export a file with the standalone application
 
@@ -18,7 +18,7 @@ It performs faster-than-realtime Dolby E encoding and multi-program PCM export t
 2. Click an input file box and choose `.wav` files located on your system.
 3. Select the [**Configuration Type**](controls.md#type) (Dolby E 16-bit, Dolby E 20-bit, PCM Dolby E, PCM Dolby Digital, or PCM) along with the Dolby E configuration if necessary.
 4. Edit the [metadata](metadata.md) for each program if necessary.
-5. Set the output file type to Interleaved WAV, Multi-mono WAV, or MXF OP1a.
+5. Set the output file type to Interleaved WAV or Multi-mono WAV.
 6. Set the output file name.
 7. Browse to select a location for the output file.
 8. Click the **Encode / Export** button at the bottom right.
@@ -29,7 +29,7 @@ It performs faster-than-realtime Dolby E encoding and multi-program PCM export t
 2. In Pro Tools, select audio across multiple tracks in the timeline.
 3. Select the [**Configuration Type**](controls.md#type) along with the Dolby E configuration if necessary.
 4. Edit the [metadata](metadata.md) for each program if necessary.
-5. Set the output file type to Interleaved WAV, Multi-mono WAV, or MXF OP1a.
+5. Set the output file type to Interleaved WAV or Multi-mono WAV.
 6. Set the output file name.
 7. Browse to select a location for the output file.
 8. Click the **Encode / Export** button at the bottom of the Pro Tools plug-in.

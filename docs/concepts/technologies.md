@@ -33,15 +33,3 @@ SoundCode For Dolby E implements actual Dolby E encoding and decoding, so it is 
 ## RF64 Files
 
 RF64 files are WAV files that can be larger than 4&nbsp;GB. (Pro Tools does not support files larger than 2&nbsp;GB as of version 8.0.) An RF64 WAV file can also include additional WAV "chunks" that define additional features such as BWF.
-
-## MXF Files
-
-MXF files contain video and audio media formatted according to open standards that follow the **Material Exchange Format**.
-
-### OP1a Files
-
-MXF files can be very complicated, and many systems do not need all of their features, so limited MXF file types — called **operational patterns** — have been defined. MXF OP1a files follow "operational pattern 1a." An OP1a file is limited to one video track and one set of audio tracks that all begin and end at the same time. It is analogous to a video tape.
-
-### OP-Atom Files
-
-OP-Atom files are the simplest type of MXF file. An OP-Atom file cannot contain both video and audio — it must contain just video or just audio.

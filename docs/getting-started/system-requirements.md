@@ -2,8 +2,8 @@
 
 SoundCode For Dolby E runs in the following environments:
 
-- **Standalone application** — qualified on Windows XP (SP2) and Mac OS X (qualified on OS X 10.4 and higher).
-- **Pro Tools plug-in** — on a Digidesign-qualified Pro Tools system running Pro Tools 7.0 or higher.
+- **Standalone application** — macOS 10.12 and higher, and Windows 10 and higher.
+- **Pro Tools plug-in** — on a Digidesign-qualified Pro Tools system running Pro Tools 10 and higher.
 
 ## Important Pro Tools mixer information
 

@@ -4,7 +4,7 @@ The **SoundCode Dolby E Monitor / Import** tool operates as a standalone applica
 
 The standalone application can decode and import faster-than-realtime, or decode-and-monitor in realtime, and features hot folder decode-and-import processing. In Pro Tools, the plug-in types are located in the **Sound Field** category.
 
-The **AUDIO PLAYBACK** section can monitor/import polyphonic / multi-program WAV or MXF OP1a files. Polyphonic or multi-program means the file contains multiple mixes, similar to a professional video tape — SoundCode can choose which program to monitor. For example, you can monitor a WAV file that has a 5.1 PCM mix and a stereo Dolby E pair.
+The **AUDIO PLAYBACK** section can monitor/import polyphonic / multi-program WAV files. Polyphonic or multi-program means the file contains multiple mixes, similar to a professional video tape — SoundCode can choose which program to monitor. For example, you can monitor a WAV file that has a 5.1 PCM mix and a stereo Dolby E pair.
 
 ## Plug-in and application windows
 
