@@ -98,27 +98,3 @@ Displays the length of the exported file. Not editable — based on the length o
 #### Encode / Export
 
 Starts the process of encoding a Dolby E file or exporting an MBWF file.
-
-## Additional Controls in Final Cut
-
-### Sequence
-
-Selects and displays the sequence to encode to a Dolby E WAV file.
-
-### Use In/Out
-
-A check box that determines the start and end time of the sequence to be encoded. If selected, the sequence in and out points are used; if not, the sequence begin and end times are used.
-
-### Batch
-
-A check box that encodes all sequences in the sequence list at once.
-
-### INPUT Controls (Final Cut)
-
-In Final Cut, the input section lets you select up to eight Final Cut audio outs to be encoded. Final Cut has up to twenty-four audio outputs, and each is available in each of the eight audio input popup controls.
-
-### OUTPUT Controls (Final Cut)
-
-- **Start Time** — the SMPTE time code used for the exported WAV file. Set automatically to match the sequence settings (and the In/Out control if checked). Not editable.
-- **End Time** — based on the Final Cut sequence settings and the In/Out control. Not editable.
-- **Length** — based on the length of the first input file. Not editable.

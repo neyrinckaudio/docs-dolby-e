@@ -1,6 +1,6 @@
 # Monitor / Import Overview
 
-The **SoundCode Dolby E Monitor / Import** tool operates as a standalone application, a realtime RTAS / Audio Unit / VST plug-in, or a non-realtime AudioSuite plug-in. It implements Dolby E decoding and multi-channel, multi-program audio playback and import.
+The **SoundCode Dolby E Monitor / Import** tool operates as a standalone application, a realtime RTAS plug-in, or a non-realtime AudioSuite plug-in. It implements Dolby E decoding and multi-channel, multi-program audio playback and import.
 
 The standalone application can decode and import faster-than-realtime, or decode-and-monitor in realtime, and features hot folder decode-and-import processing. In Pro Tools, the plug-in types are located in the **Sound Field** category.
 
@@ -8,7 +8,7 @@ The **AUDIO PLAYBACK** section can monitor/import polyphonic / multi-program WAV
 
 ## Plug-in and application windows
 
-### RTAS / Audio Unit / VST Window
+### RTAS Window
 
 The Dolby E Monitor operates as these realtime types: **stereo-to-stereo**, **stereo-to-5.1**, and **stereo to 8-outputs** (auxiliary output stems in Pro Tools). In Pro Tools, open them by clicking a channel insert on a stereo track and navigating the RTAS multichannel popup menu.
 

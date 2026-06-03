@@ -2,7 +2,7 @@
 
 **SoundCode For Dolby E** is a suite of software tools for encoding, decoding, and exchanging audio for broadcast applications. Designed for both tape-based and file-based workflows, it lets you encode, export, import, and monitor Dolby&nbsp;E, BWF, and MXF&nbsp;OP1a audio.
 
-SoundCode For Dolby E runs on macOS and Windows as a standalone application, a Pro Tools plug-in, an Audio Unit plug-in, a VST plug-in, and a Final Cut plug-in.
+SoundCode For Dolby E runs on macOS and Windows as a standalone application and a Pro Tools plug-in.
 
 ## What SoundCode For Dolby E Does
 
@@ -19,7 +19,7 @@ SoundCode For Dolby E operates as two separate tools:
 - Real time audio monitoring of multi-program BWF and MXF OP1a files
 - Dolby E metadata import/export
 - Compatible with the Dolby DP600
-- Integration with Pro Tools, Final Cut, Nuendo, and other workstations
+- Integration with Pro Tools, Nuendo, and other workstations
 - Batch processing and hot folder processing
 - Tape-based and file-based workflows
 
@@ -27,8 +27,6 @@ SoundCode For Dolby E operates as two separate tools:
 
 - macOS (qualified on OS X 10.4 and higher) or Windows XP SP2 and later
 - Pro Tools 7.0 or higher (for the Pro Tools plug-in)
-- Final Cut Pro / Final Cut Express 6.0.5 or later (for the Final Cut plug-in)
-- VST 2.4 compatible host (for the VST plug-in)
 - An authorized iLok USB Key or a license file
 
 See [System Requirements](getting-started/system-requirements.md) for important details about sample rates, latency, and the Pro Tools mixer.

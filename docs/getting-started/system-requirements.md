@@ -4,8 +4,6 @@ SoundCode For Dolby E runs in the following environments:
 
 - **Standalone application** — qualified on Windows XP (SP2) and Mac OS X (qualified on OS X 10.4 and higher).
 - **Pro Tools plug-in** — on a Digidesign-qualified Pro Tools system running Pro Tools 7.0 or higher.
-- **Final Cut plug-in** — on Final Cut Pro and Final Cut Express 6.0.5 and later.
-- **VST plug-in** — any VST 2.4 compatible host.
 
 ## Important Pro Tools mixer information
 

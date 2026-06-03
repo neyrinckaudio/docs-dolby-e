@@ -1,6 +1,6 @@
 # Encode / Export Overview
 
-The **SoundCode Dolby E Encode / Export** tool operates as a standalone application window, an AudioSuite plug-in in Pro Tools, or a Final Cut export plug-in.
+The **SoundCode Dolby E Encode / Export** tool operates as a standalone application window or an AudioSuite plug-in in Pro Tools.
 
 It performs faster-than-realtime Dolby E encoding and multi-program PCM export to BWF and MXF OP1a, with full Dolby E and Dolby Digital metadata, automatic time code integration, and Dolby E latency compensation.
 
@@ -33,18 +33,6 @@ It performs faster-than-realtime Dolby E encoding and multi-program PCM export t
 6. Set the output file name.
 7. Browse to select a location for the output file.
 8. Click the **Encode / Export** button at the bottom of the Pro Tools plug-in.
-
-## How to encode / export a file in Final Cut
-
-1. In Final Cut, select one or more sequences you would like to encode as Dolby E.
-2. Open the SoundCode Dolby E Encoder from the **Export…** menu.
-3. Click the input channel popups and select the Final Cut audio outputs to be encoded.
-4. Select the [**Configuration Type**](controls.md#type) along with the Dolby E configuration if necessary.
-5. Edit the [metadata](metadata.md) for each program if necessary.
-6. Set the output file type to Interleaved WAV, Multi-mono WAV, or MXF OP1a.
-7. Set the output file name.
-8. Browse to select a location for the output file.
-9. Click the **Encode** button at the bottom of the plug-in.
 
 !!! tip
     For step-by-step delivery scenarios, see [Workflows](../reference/workflows.md). For a detailed description of every control, see the [Controls Reference](controls.md).

@@ -4,7 +4,7 @@ Installers can be downloaded from the [Neyrinck website](https://www.neyrinck.co
 
 ## To install SoundCode For Dolby E
 
-1. If Pro Tools, Final Cut, or any Audio Unit / VST based workstation is running, **quit** it.
+1. If Pro Tools is running, **quit** it.
 2. Locate and open (double-click) the plug-in installer.
 3. Follow the instructions presented by the installation software.
 4. When installation is complete, click **Quit**.
